@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Memeswift
+{% endblock title %}
+{% block body %}
+<style>
+  body {
+    overflow: hidden;
+  }
+</style>  
+{% include 'navbar.html' %}
+<div class="container text-center">
+  
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-3">
+      <div class="sidebar">
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <a type="button" href="{{meme}}"  class="btn btn-dark btn-lg" download>
+            <i class="fa fa-download" aria-hidden="true"></i>
+            Save Image
+          </a>
+      
+          <button type="button"class="btn btn-light btn-lg" id="refreshButton" download> <i class="fa fa-repeat" aria-hidden="true"></i>
+
+             Regenerate Meme</button>
+        
+        </div>
+        {{caption}}
+      </div>
+    </div>
+    <div class="col-md-6">
+    
+      
+     
+        <div class="card-body">
+          <form action="{% url 'meme' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="mb-3">
+             
+          
+                <img src="{{meme}}" class="img-fluid custom" alt="...">
+          
+              
+
+            </div>
+           
+          </form>
+        </div>
+      </div>
+     
+  </div>
+ 
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"></script>
+
+<script>
+  const refreshButton = document.getElementById("refreshButton");
+refreshButton.addEventListener("click", function() {
+  location.reload();
+});
+
+  const languageButton = document.getElementById('languageButton');
+  const languages = [
+    { name: 'English', value: 'en' },
+    { name: 'Bangla', value: 'bn' },
+    { name: 'Spanish', value: 'sp' }
+  ];
+  
+  let currentIndex = 0;
+  
+  languageButton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % languages.length;
+    const { name, value } = languages[currentIndex];
+    languageButton.textContent = `${name} (${value})`;
+  });
+  
+
+
+  document.getElementById('use-camera-btn').addEventListener('click', function() {
+
+    navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
+
+      var video = document.createElement('video');
+      video.srcObject = stream;
+      video.play();
+
+      var canvas = document.createElement('canvas');
+      canvas.width = video.videoWidth;
+      canvas.height = video.videoHeight;
+
+
+      var ctx = canvas.getContext('2d');
+      ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+
+      var dataUrl = canvas.toDataURL('image/jpeg');
+
+
+      document.getElementById('image').value = dataUrl;
+
+
+      stream.getTracks().forEach(function(track) {
+        track.stop();
+      });
+    }).catch(function(error) {
+      console.error(error);
+    });
+  });
+</script>
+{% endblock body %}
+
