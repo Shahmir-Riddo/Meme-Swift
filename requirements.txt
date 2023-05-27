@@ -29,14 +29,9 @@ DateTime==5.1
 dj-database-url==2.0.0
 Django==4.0
 django-environ==0.10.0
-django-restframework==0.0.1
-djangorestframework==3.14.0
-Faker==18.4.0
-fastapi==0.95.0
 filelock==3.12.0
 filetype==1.2.0
 fire==0.5.0
-Flask==2.3.2
 flatbuffers==23.3.3
 fonttools==4.39.4
 frozenlist==1.3.3
@@ -107,10 +102,8 @@ psycopg2-binary==2.9.6
 py==1.11.0
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
-PyAudio==0.2.13
 pydantic==1.10.7
 Pygments==2.15.1
-pyjokes==0.6.0
 PyMatting==1.1.8
 pyparsing==3.0.9
 pyreadline3==3.4.1
