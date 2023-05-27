@@ -23,7 +23,7 @@ def generate_captions(text):
 
 
 def generate_meme_text(desc, context="No Context"):
-    openai.api_key = "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"
+    openai.api_key = "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"
     prompt = f"Generate a short meme top text without any quotes using reddit dark humour  based on the meme template . meme template - {desc}. the number of words of the meme top text will be 5 or less. Meme Context - {context}"
     completion = openai.Completion()
 
