@@ -1,6 +1,5 @@
 import requests
 from PIL import Image
-from transformers import BlipProcessor, BlipForConditionalGeneration
 import openai
 from PIL import Image
 from PIL import ImageFont
@@ -10,7 +9,6 @@ from io import BytesIO
 from django.conf import settings
 from django.core.files.uploadedfile import InMemoryUploadedFile
 import os
-import base64
 import replicate
 
 
