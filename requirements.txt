@@ -118,7 +118,6 @@ sympy==1.11.1
 termcolor==2.3.0
 tifffile==2023.3.21
 tqdm==4.64.1
-transformers==4.29.1
 typing_extensions==4.5.0
 tzdata==2023.3
 urllib3==1.26.15
