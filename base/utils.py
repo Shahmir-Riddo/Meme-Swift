@@ -10,25 +10,15 @@ from io import BytesIO
 from django.conf import settings
 from django.core.files.uploadedfile import InMemoryUploadedFile
 import os
-
-def generate_captions(pic):
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    processor_path = os.path.join(base_dir, r"base")
-    model_path = os.path.join(base_dir, "base")
-
-    processor = BlipProcessor.from_pretrained(model_path)
-    model = BlipForConditionalGeneration.from_pretrained(model_path)
+import base64
+import replicate
 
 
-    img = Image.open(pic)
-    raw_image = Image.open(pic)
+def generate_captions(text):
 
 
-    text = "a photography of"
-    inputs = processor(raw_image, text, return_tensors="pt")
-
-    out = model.generate(**inputs)
-    result = (processor.decode(out[0], skip_special_tokens=True))
+    result = f"a photography of {text}"
+ 
     return result
 
 
@@ -92,22 +82,6 @@ def watermark(image):
 
     return image_file
 
-def image_caption(image):
-
-
-    gray = image.convert('L')
-
-
-    img_array = np.array(gray)
-
-
-    img_array = 255 - img_array
-
-
-    threshold = 100
-    img_array[img_array < threshold] = 0
-    img_array[img_array >= threshold] = 255
-
 
 
 def align_text(text):
@@ -123,3 +97,18 @@ def align_text(text):
 
     return aligned_text.strip()
 
+
+
+def get_caption(url):
+    os.environ['REPLICATE_API_TOKEN'] = 'r8_QUyto5FxE0EUucKVF80wd1fWVtZI5yd1eEWIJ'
+    model_path = "salesforce/blip:2e1dddc8621f72155f24cf2e0adbde548458d3cab9f00c0139eea840d0ac4746"
+
+    try:
+        output = replicate.run(
+    "salesforce/blip:2e1dddc8621f72155f24cf2e0adbde548458d3cab9f00c0139eea840d0ac4746",
+    input={"image": f"{url}"}
+)
+        return output
+
+    except Exception as e:
+        return e

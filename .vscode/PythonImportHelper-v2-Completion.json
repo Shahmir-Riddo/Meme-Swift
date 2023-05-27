@@ -1,0 +1,872 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageFont",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageDraw",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "BlipProcessor",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "BlipForConditionalGeneration",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "BlipProcessor",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "BlipForConditionalGeneration",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "openai",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "openai",
+        "description": "openai",
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "InMemoryUploadedFile",
+        "importPath": "django.core.files.uploadedfile",
+        "description": "django.core.files.uploadedfile",
+        "isExtraImport": true,
+        "detail": "django.core.files.uploadedfile",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "replicate",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "replicate",
+        "description": "replicate",
+        "detail": "replicate",
+        "documentation": {}
+    },
+    {
+        "label": "default_storage",
+        "importPath": "django.core.files.storage",
+        "description": "django.core.files.storage",
+        "isExtraImport": true,
+        "detail": "django.core.files.storage",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "ContentFile",
+        "importPath": "django.core.files.base",
+        "description": "django.core.files.base",
+        "isExtraImport": true,
+        "detail": "django.core.files.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "base.migrations.0001_initial",
+        "description": "base.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Todo',\n            fields=[\n                ('uid', models.UUIDField(default=uuid.UUID('9863ed23-7080-4516-8a62-1a569f8d902f'), primary_key=True, serialize=False)),\n                ('create_time', models.DateTimeField(auto_now_add=True)),",
+        "detail": "base.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "base.migrations.0002_alter_todo_uid",
+        "description": "base.migrations.0002_alter_todo_uid",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('base', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='todo',\n            name='uid',\n            field=models.UUIDField(default=uuid.UUID('97e6d82b-0b0f-4e03-95ef-b33cabfd8aa9'), primary_key=True, serialize=False),\n        ),",
+        "detail": "base.migrations.0002_alter_todo_uid",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "base.migrations.0003_alter_todo_uid",
+        "description": "base.migrations.0003_alter_todo_uid",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('base', '0002_alter_todo_uid'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='todo',\n            name='uid',\n            field=models.UUIDField(default=uuid.UUID('19e64726-8da3-4001-b9b7-8d50479b8616'), editable=False, primary_key=True, serialize=False, unique=True),\n        ),",
+        "detail": "base.migrations.0003_alter_todo_uid",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "base.migrations.0004_meme_delete_todo",
+        "description": "base.migrations.0004_meme_delete_todo",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('base', '0003_alter_todo_uid'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Meme',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('photo', models.FileField(upload_to='media/')),",
+        "detail": "base.migrations.0004_meme_delete_todo",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "base.migrations.0005_alter_meme_photo",
+        "description": "base.migrations.0005_alter_meme_photo",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('base', '0004_meme_delete_todo'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='meme',\n            name='photo',\n            field=models.ImageField(upload_to='media/'),\n        ),",
+        "detail": "base.migrations.0005_alter_meme_photo",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "base.migrations.0006_alter_meme_caption",
+        "description": "base.migrations.0006_alter_meme_caption",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('base', '0005_alter_meme_photo'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='meme',\n            name='caption',\n            field=models.CharField(max_length=500),\n        ),",
+        "detail": "base.migrations.0006_alter_meme_caption",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "base.migrations.0007_alter_meme_meme_text",
+        "description": "base.migrations.0007_alter_meme_meme_text",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('base', '0006_alter_meme_caption'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='meme',\n            name='meme_text',\n            field=models.CharField(max_length=500),\n        ),",
+        "detail": "base.migrations.0007_alter_meme_meme_text",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "base.migrations.0008_alter_meme_meme_text",
+        "description": "base.migrations.0008_alter_meme_meme_text",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('base', '0007_alter_meme_meme_text'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='meme',\n            name='meme_text',\n            field=models.CharField(max_length=50000),\n        ),",
+        "detail": "base.migrations.0008_alter_meme_meme_text",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "base.migrations.0009_alter_meme_caption",
+        "description": "base.migrations.0009_alter_meme_caption",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('base', '0008_alter_meme_meme_text'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='meme',\n            name='caption',\n            field=models.CharField(max_length=50000),\n        ),",
+        "detail": "base.migrations.0009_alter_meme_caption",
+        "documentation": {}
+    },
+    {
+        "label": "BaseConfig",
+        "kind": 6,
+        "importPath": "base.apps",
+        "description": "base.apps",
+        "peekOfCode": "class BaseConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'base'",
+        "detail": "base.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Meme",
+        "kind": 6,
+        "importPath": "base.models",
+        "description": "base.models",
+        "peekOfCode": "class Meme(models.Model):\n    photo = models.ImageField(upload_to=\"media/\")\n    caption = models.CharField(max_length=50000)\n    meme_text = models.CharField(max_length=50000)",
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "base.urls",
+        "description": "base.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.home, name='home'),\n    path('meme/', views.meme, name='meme')\n]",
+        "detail": "base.urls",
+        "documentation": {}
+    },
+    {
+        "label": "generate_captions",
+        "kind": 2,
+        "importPath": "base.utils",
+        "description": "base.utils",
+        "peekOfCode": "def generate_captions(text):\n    result = f\"a photography of {text}\"\n    return result\ndef generate_meme_text(desc, context=\"No Context\"):\n    openai.api_key = \"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\"\n    prompt = f\"Generate a short meme top text without any quotes using reddit dark humour  based on the meme template . meme template - {desc}. the number of words of the meme top text will be 5 or less. Meme Context - {context}\"\n    completion = openai.Completion()\n    response = completion.create(prompt=prompt, engine=\"text-davinci-002\", max_tokens=2048)\n    answer = align_text(response.choices[0].text.strip())\n    answer = answer.replace('\"', '')",
+        "detail": "base.utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_meme_text",
+        "kind": 2,
+        "importPath": "base.utils",
+        "description": "base.utils",
+        "peekOfCode": "def generate_meme_text(desc, context=\"No Context\"):\n    openai.api_key = \"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\"\n    prompt = f\"Generate a short meme top text without any quotes using reddit dark humour  based on the meme template . meme template - {desc}. the number of words of the meme top text will be 5 or less. Meme Context - {context}\"\n    completion = openai.Completion()\n    response = completion.create(prompt=prompt, engine=\"text-davinci-002\", max_tokens=2048)\n    answer = align_text(response.choices[0].text.strip())\n    answer = answer.replace('\"', '')\n    return answer\ndef generate_meme(img, text):\n    image = Image.open(img)",
+        "detail": "base.utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_meme",
+        "kind": 2,
+        "importPath": "base.utils",
+        "description": "base.utils",
+        "peekOfCode": "def generate_meme(img, text):\n    image = Image.open(img)\n    image = image.resize((960, 960))\n    draw = ImageDraw.Draw(image)\n    font = ImageFont.truetype('impact.ttf', 60) \n    text_size = draw.textsize(text, font=font)\n    x = (image.width - text_size[0]) // 2\n    y = 20\n    draw.text((x, y), f\"{text}\", font=font, fill=(255, 255, 255), stroke_width=3, stroke_fill=(0, 0, 0)) # Change the text and position as desired\n        # Save the image to memory",
+        "detail": "base.utils",
+        "documentation": {}
+    },
+    {
+        "label": "watermark",
+        "kind": 2,
+        "importPath": "base.utils",
+        "description": "base.utils",
+        "peekOfCode": "def watermark(image):\n    text = \"Made with memeswift.com\"\n    image = Image.open(image)\n    draw = ImageDraw.Draw(image)\n    font = ImageFont.truetype('calibri.ttf', 30)\n    font2 = ImageFont.truetype('calibri.ttf', 15)\n    text_size = draw.textsize(text, font=font)\n    width, height = image.size \n    x = 5\n    y = height - 50",
+        "detail": "base.utils",
+        "documentation": {}
+    },
+    {
+        "label": "align_text",
+        "kind": 2,
+        "importPath": "base.utils",
+        "description": "base.utils",
+        "peekOfCode": "def align_text(text):\n    words = text.split()\n    aligned_text = \"\"\n    for index, word in enumerate(words, start=1):\n        aligned_text += word\n        if index % 6 == 0:\n            aligned_text += \"\\n\"\n        else:\n            aligned_text += \" \"\n    return aligned_text.strip()",
+        "detail": "base.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_caption",
+        "kind": 2,
+        "importPath": "base.utils",
+        "description": "base.utils",
+        "peekOfCode": "def get_caption(url):\n    os.environ['REPLICATE_API_TOKEN'] = 'r8_QUyto5FxE0EUucKVF80wd1fWVtZI5yd1eEWIJ'\n    model_path = \"salesforce/blip:2e1dddc8621f72155f24cf2e0adbde548458d3cab9f00c0139eea840d0ac4746\"\n    try:\n        output = replicate.run(\n    \"salesforce/blip:2e1dddc8621f72155f24cf2e0adbde548458d3cab9f00c0139eea840d0ac4746\",\n    input={\"image\": f\"url\"}\n)\n        return output\n    except Exception as e:",
+        "detail": "base.utils",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "base.views",
+        "description": "base.views",
+        "peekOfCode": "def home(request):\n    return render(request, \"index.html\")\ndef meme(request):\n    if request.method == 'POST':\n        context = request.POST.get('context')\n        template = request.POST.get('dropdownMenuButton')\n        print(context, template)\n        try:\n            image = request.FILES['image']\n        except:",
+        "detail": "base.views",
+        "documentation": {}
+    },
+    {
+        "label": "meme",
+        "kind": 2,
+        "importPath": "base.views",
+        "description": "base.views",
+        "peekOfCode": "def meme(request):\n    if request.method == 'POST':\n        context = request.POST.get('context')\n        template = request.POST.get('dropdownMenuButton')\n        print(context, template)\n        try:\n            image = request.FILES['image']\n        except:\n            return render(request, \"index.html\", {\"error\": \"Please Upload Or Click An Image To Generate Meme\"})\n        picture_data = image.read()",
+        "detail": "base.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ShareSwift.asgi",
+        "description": "ShareSwift.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "ShareSwift.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-f3u9e+v=fl76qrsbgmm@i1=+cpd-=ql%avvjja9fhx0pdn$@d4'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-f3u9e+v=fl76qrsbgmm@i1=+cpd-=ql%avvjja9fhx0pdn$@d4'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'base',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'base',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'base',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'base',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]\nMIDDLEWARE = [",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'ShareSwift.urls'",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "ROOT_URLCONF = 'ShareSwift.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'ShareSwift.wsgi.application'\n#DATABASES = {\n  #'default': {\n     #   'ENGINE': 'django.db.backends.sqlite3',\n     #  'NAME': BASE_DIR / 'db.sqlite3',\n   # }\n#}\nDATABASES = {\n    'default': dj_database_url.parse('postgres://memeswift_database_user:gdY0kivR76zUzU4BOE4vYpnrtil7fJ1z@dpg-chl5j4u4dadfmsh99etg-a.ohio-postgres.render.com/memeswift_database'),\n}",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#DATABASES",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "#DATABASES = {\n  #'default': {\n     #   'ENGINE': 'django.db.backends.sqlite3',\n     #  'NAME': BASE_DIR / 'db.sqlite3',\n   # }\n#}\nDATABASES = {\n    'default': dj_database_url.parse('postgres://memeswift_database_user:gdY0kivR76zUzU4BOE4vYpnrtil7fJ1z@dpg-chl5j4u4dadfmsh99etg-a.ohio-postgres.render.com/memeswift_database'),\n}\n# Password validation",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "DATABASES = {\n    'default': dj_database_url.parse('postgres://memeswift_database_user:gdY0kivR76zUzU4BOE4vYpnrtil7fJ1z@dpg-chl5j4u4dadfmsh99etg-a.ohio-postgres.render.com/memeswift_database'),\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "USE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "ShareSwift.settings",
+        "description": "ShareSwift.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ShareSwift.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "ShareSwift.urls",
+        "description": "ShareSwift.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('base.urls'))\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "ShareSwift.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ShareSwift.wsgi",
+        "description": "ShareSwift.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "ShareSwift.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ShareSwift.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
