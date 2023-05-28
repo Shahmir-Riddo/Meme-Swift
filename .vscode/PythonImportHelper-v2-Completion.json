@@ -144,6 +144,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -279,22 +295,6 @@
         "description": "PIL",
         "isExtraImport": true,
         "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "BlipProcessor",
-        "importPath": "transformers",
-        "description": "transformers",
-        "isExtraImport": true,
-        "detail": "transformers",
-        "documentation": {}
-    },
-    {
-        "label": "BlipForConditionalGeneration",
-        "importPath": "transformers",
-        "description": "transformers",
-        "isExtraImport": true,
-        "detail": "transformers",
         "documentation": {}
     },
     {
@@ -537,6 +537,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "base.migrations.0010_meme_raw_photo",
+        "description": "base.migrations.0010_meme_raw_photo",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('base', '0009_alter_meme_caption'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='meme',\n            name='raw_photo',\n            field=models.ImageField(null=True, upload_to='media/'),\n        ),",
+        "detail": "base.migrations.0010_meme_raw_photo",
+        "documentation": {}
+    },
+    {
         "label": "BaseConfig",
         "kind": 6,
         "importPath": "base.apps",
@@ -550,7 +559,7 @@
         "kind": 6,
         "importPath": "base.models",
         "description": "base.models",
-        "peekOfCode": "class Meme(models.Model):\n    photo = models.ImageField(upload_to=\"media/\")\n    caption = models.CharField(max_length=50000)\n    meme_text = models.CharField(max_length=50000)",
+        "peekOfCode": "class Meme(models.Model):\n    raw_photo = models.ImageField(upload_to=\"media/\", null=True)\n    photo = models.ImageField(upload_to=\"media/\")\n    caption = models.CharField(max_length=50000)\n    meme_text = models.CharField(max_length=50000)",
         "detail": "base.models",
         "documentation": {}
     },
@@ -568,7 +577,7 @@
         "kind": 2,
         "importPath": "base.utils",
         "description": "base.utils",
-        "peekOfCode": "def generate_captions(text):\n    result = f\"a photography of {text}\"\n    return result\ndef generate_meme_text(desc, context=\"No Context\"):\n    openai.api_key = \"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\"\n    prompt = f\"Generate a short meme top text without any quotes using reddit dark humour  based on the meme template . meme template - {desc}. the number of words of the meme top text will be 5 or less. Meme Context - {context}\"\n    completion = openai.Completion()\n    response = completion.create(prompt=prompt, engine=\"text-davinci-002\", max_tokens=2048)\n    answer = align_text(response.choices[0].text.strip())\n    answer = answer.replace('\"', '')",
+        "peekOfCode": "def generate_captions(text):\n    result = f\"a photography of {text}\"\n    return result\ndef generate_meme_text(desc, context=\"No Context\"):\n    openai.api_key = \"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\"\n    prompt = f\"Generate a short meme top text without any quotes using reddit dark humour  based on the meme template . meme template - {desc}. the number of words of the meme top text will be 5 or less. Meme Context - {context}\"\n    completion = openai.Completion()\n    response = completion.create(prompt=prompt, engine=\"text-davinci-002\", max_tokens=2048)\n    answer = align_text(response.choices[0].text.strip())\n    answer = answer.replace('\"', '')",
         "detail": "base.utils",
         "documentation": {}
     },
@@ -577,7 +586,7 @@
         "kind": 2,
         "importPath": "base.utils",
         "description": "base.utils",
-        "peekOfCode": "def generate_meme_text(desc, context=\"No Context\"):\n    openai.api_key = \"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\"\n    prompt = f\"Generate a short meme top text without any quotes using reddit dark humour  based on the meme template . meme template - {desc}. the number of words of the meme top text will be 5 or less. Meme Context - {context}\"\n    completion = openai.Completion()\n    response = completion.create(prompt=prompt, engine=\"text-davinci-002\", max_tokens=2048)\n    answer = align_text(response.choices[0].text.strip())\n    answer = answer.replace('\"', '')\n    return answer\ndef generate_meme(img, text):\n    image = Image.open(img)",
+        "peekOfCode": "def generate_meme_text(desc, context=\"No Context\"):\n    openai.api_key = \"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\"\n    prompt = f\"Generate a short meme top text without any quotes using reddit dark humour  based on the meme template . meme template - {desc}. the number of words of the meme top text will be 5 or less. Meme Context - {context}\"\n    completion = openai.Completion()\n    response = completion.create(prompt=prompt, engine=\"text-davinci-002\", max_tokens=2048)\n    answer = align_text(response.choices[0].text.strip())\n    answer = answer.replace('\"', '')\n    return answer\ndef generate_meme(img, text):\n    image = Image.open(img)",
         "detail": "base.utils",
         "documentation": {}
     },
@@ -613,7 +622,7 @@
         "kind": 2,
         "importPath": "base.utils",
         "description": "base.utils",
-        "peekOfCode": "def get_caption(url):\n    os.environ['REPLICATE_API_TOKEN'] = 'r8_QUyto5FxE0EUucKVF80wd1fWVtZI5yd1eEWIJ'\n    model_path = \"salesforce/blip:2e1dddc8621f72155f24cf2e0adbde548458d3cab9f00c0139eea840d0ac4746\"\n    try:\n        output = replicate.run(\n    \"salesforce/blip:2e1dddc8621f72155f24cf2e0adbde548458d3cab9f00c0139eea840d0ac4746\",\n    input={\"image\": f\"url\"}\n)\n        return output\n    except Exception as e:",
+        "peekOfCode": "def get_caption(url):\n    os.environ['REPLICATE_API_TOKEN'] = 'r8_QUyto5FxE0EUucKVF80wd1fWVtZI5yd1eEWIJ'\n    model_path = \"salesforce/blip:2e1dddc8621f72155f24cf2e0adbde548458d3cab9f00c0139eea840d0ac4746\"\n    try:\n        output = replicate.run(\n    \"salesforce/blip:2e1dddc8621f72155f24cf2e0adbde548458d3cab9f00c0139eea840d0ac4746\",\n    input={\"image\": url}\n)\n        return output\n    except Exception as e:",
         "detail": "base.utils",
         "documentation": {}
     },
@@ -631,7 +640,7 @@
         "kind": 2,
         "importPath": "base.views",
         "description": "base.views",
-        "peekOfCode": "def meme(request):\n    if request.method == 'POST':\n        context = request.POST.get('context')\n        template = request.POST.get('dropdownMenuButton')\n        print(context, template)\n        try:\n            image = request.FILES['image']\n        except:\n            return render(request, \"index.html\", {\"error\": \"Please Upload Or Click An Image To Generate Meme\"})\n        picture_data = image.read()",
+        "peekOfCode": "def meme(request):\n    if request.method == 'POST':\n        context = request.POST.get('context')\n        template = request.POST.get('dropdownMenuButton')\n        print(context, template)\n        try:\n            image = request.FILES['image']\n        except:\n            return render(request, \"index.html\", {\"error\": \"Please Upload Or Click An Image To Generate Meme\"})\n        meme_obj = Meme(raw_photo=image)",
         "detail": "base.views",
         "documentation": {}
     },
@@ -757,7 +766,7 @@
         "kind": 5,
         "importPath": "ShareSwift.settings",
         "description": "ShareSwift.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type",
         "detail": "ShareSwift.settings",
         "documentation": {}
     },
@@ -766,7 +775,7 @@
         "kind": 5,
         "importPath": "ShareSwift.settings",
         "description": "ShareSwift.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field",
         "detail": "ShareSwift.settings",
         "documentation": {}
     },
@@ -775,7 +784,7 @@
         "kind": 5,
         "importPath": "ShareSwift.settings",
         "description": "ShareSwift.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "ShareSwift.settings",
         "documentation": {}
     },
@@ -784,7 +793,7 @@
         "kind": 5,
         "importPath": "ShareSwift.settings",
         "description": "ShareSwift.settings",
-        "peekOfCode": "USE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "ShareSwift.settings",
         "documentation": {}
     },
@@ -793,7 +802,7 @@
         "kind": 5,
         "importPath": "ShareSwift.settings",
         "description": "ShareSwift.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "ShareSwift.settings",
         "documentation": {}
     },
@@ -802,7 +811,7 @@
         "kind": 5,
         "importPath": "ShareSwift.settings",
         "description": "ShareSwift.settings",
-        "peekOfCode": "STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "ShareSwift.settings",
         "documentation": {}
     },
@@ -811,7 +820,7 @@
         "kind": 5,
         "importPath": "ShareSwift.settings",
         "description": "ShareSwift.settings",
-        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "ShareSwift.settings",
         "documentation": {}
     },

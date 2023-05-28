@@ -23,7 +23,7 @@ def generate_captions(text):
 
 
 def generate_meme_text(desc, context="No Context"):
-    openai.api_key = "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"
+    openai.api_key = "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"
     prompt = f"Generate a short meme top text without any quotes using reddit dark humour  based on the meme template . meme template - {desc}. the number of words of the meme top text will be 5 or less. Meme Context - {context}"
     completion = openai.Completion()
 
@@ -106,7 +106,7 @@ def get_caption(url):
     try:
         output = replicate.run(
     "salesforce/blip:2e1dddc8621f72155f24cf2e0adbde548458d3cab9f00c0139eea840d0ac4746",
-    input={"image": f"{url}"}
+    input={"image": url}
 )
         return output
 
