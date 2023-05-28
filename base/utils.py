@@ -101,7 +101,7 @@ def get_caption(url):
     try:
         output = replicate.run(
     "salesforce/blip:2e1dddc8621f72155f24cf2e0adbde548458d3cab9f00c0139eea840d0ac4746",
-    input={"image": url}"}
+    input={"image": url}
 )
         return output.split(": ")[1]
 
