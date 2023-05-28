@@ -67,13 +67,14 @@ WSGI_APPLICATION = 'ShareSwift.wsgi.application'
      #  'NAME': BASE_DIR / 'db.sqlite3',
    # }
 #}
+#DATABASES = {
+   # 'default': {
+    #    'ENGINE': 'django.db.backends.sqlite3',
+     #   'NAME': BASE_DIR / 'db.sqlite3',
+    #}
+#}
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
+    'default': dj_database_url.parse('postgres://memeswift_database_user:gdY0kivR76zUzU4BOE4vYpnrtil7fJ1z@dpg-chl5j4u4dadfmsh99etg-a.ohio-postgres.render.com/memeswift_database'),
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
