@@ -7,11 +7,10 @@ astunparse==1.6.3
 async-timeout==4.0.2
 asyncer==0.0.2
 attrs==22.2.0
-<<<<<<< HEAD
+
 bardapi==0.1.8
 beautifulsoup4==4.12.2
-=======
->>>>>>> 865f0bcf0be0bcab9bd96bf32927c9dfe1479d0f
+
 blinker==1.6.2
 blip==0.1.0
 bytes==0.0.1.dev4
@@ -43,13 +42,13 @@ fsspec==2023.5.0
 future==0.15.2
 gast==0.4.0
 gdown==4.7.1
-<<<<<<< HEAD
+
 google-auth==2.18.0
 google-auth-oauthlib==1.0.0
 google-pasta==0.2.0
-=======
+
 google-auth-oauthlib==1.0.00
->>>>>>> 865f0bcf0be0bcab9bd96bf32927c9dfe1479d0f
+
 grpcio==1.54.2
 gunicorn==20.1.0
 h11==0.9.0
