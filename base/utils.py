@@ -21,13 +21,13 @@ def generate_captions(text):
 
 
 def generate_meme_text(desc, context="No Context"):
-<<<<<<< HEAD
+
     openai.api_key = "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"
     prompt = f"Generate a short meme top text without any quotes using reddit dark humour  based on the meme template . meme template - {desc}. the number of words of the meme top text will be 5 or less. Meme Context - {context}"
-=======
+
     openai.api_key = "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"
     prompt = f"Generate a short meme top text without any quotes using reddit dark humour based on the meme template . meme template - {desc}. the number of words of the meme top text will be 5 or less. Meme Context - {context}"
->>>>>>> 865f0bcf0be0bcab9bd96bf32927c9dfe1479d0f
+
     completion = openai.Completion()
 
 
@@ -101,7 +101,7 @@ def get_caption(url):
     try:
         output = replicate.run(
     "salesforce/blip:2e1dddc8621f72155f24cf2e0adbde548458d3cab9f00c0139eea840d0ac4746",
-    input={"image": f"{str(url)}"}
+    input={"image": url}"}
 )
         return output.split(": ")[1]
 
@@ -128,15 +128,4 @@ def align_text(text):
 
 
 
-<<<<<<< HEAD
-    try:
-        output = replicate.run(
-    "salesforce/blip:2e1dddc8621f72155f24cf2e0adbde548458d3cab9f00c0139eea840d0ac4746",
-    input={"image": url}
-)
-        return output
 
-    except Exception as e:
-        return e
-=======
->>>>>>> 865f0bcf0be0bcab9bd96bf32927c9dfe1479d0f
