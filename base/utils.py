@@ -19,9 +19,8 @@ def generate_captions(text):
 
     return result
 
-
 def generate_meme_text(desc, context="No Context"):
-    openai.api_key = "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"
+    openai.api_key = "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"
     prompt = f"Generate a short meme top text without any quotes using reddit dark humour based on the meme template . meme template - {desc}. the number of words of the meme top text will be 5 or less. Meme Context - {context}"
     completion = openai.Completion()
 
@@ -31,8 +30,8 @@ def generate_meme_text(desc, context="No Context"):
         answer = align_text(response.choices[0].text.strip())
         answer = answer.replace('"', '')
         return answer
-    except:
-        return "Couldn't Generate Meme"
+    except Exceeption as e:
+        return e
 
 def generate_meme(img, text):
     base_app_directory = os.path.dirname(os.path.abspath(__file__))
