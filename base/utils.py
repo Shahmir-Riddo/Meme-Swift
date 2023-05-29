@@ -21,20 +21,18 @@ def generate_captions(text):
 
 
 def generate_meme_text(desc, context="No Context"):
-
     openai.api_key = "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"
-    prompt = f"Generate a short meme top text without any quotes using reddit dark humour  based on the meme template . meme template - {desc}. the number of words of the meme top text will be 5 or less. Meme Context - {context}"
-
- 
+    prompt = f"Generate a short meme top text without any quotes using reddit dark humour based on the meme template . meme template - {desc}. the number of words of the meme top text will be 5 or less. Meme Context - {context}"
     completion = openai.Completion()
 
+    try:
 
-
-    response = completion.create(prompt=prompt, engine="text-davinci-002", max_tokens=1000)
-    answer = align_text(response.choices[0].text.strip())
-    answer = answer.replace('"', '')
-    return answer
-
+        response = completion.create(prompt=prompt, engine="text-davinci-002", max_tokens=1000)
+        answer = align_text(response.choices[0].text.strip())
+        answer = answer.replace('"', '')
+        return answer
+    except:
+        return "Couldn't Generate Meme"
 
 def generate_meme(img, text):
     base_app_directory = os.path.dirname(os.path.abspath(__file__))
