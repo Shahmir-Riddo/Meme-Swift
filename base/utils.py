@@ -30,7 +30,7 @@ def generate_meme_text(desc, context="No Context"):
         answer = align_text(response.choices[0].text.strip())
         answer = answer.replace('"', '')
         return answer
-    except Exceeption as e:
+    except Exception as e:
         return e
 
 def generate_meme(img, text):
