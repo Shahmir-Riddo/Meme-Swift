@@ -2,7 +2,7 @@ import requests
 from PIL import Image
 from django.core.files.storage import default_storage
 from django.shortcuts import render
-from .utils import generate_captions, generate_meme_text, generate_meme, watermark, get_caption
+from .utils import generate_captions, generate_meme_text, generate_meme, watermark
 from .models import Meme
 from django.core.files.base import ContentFile
 
@@ -24,7 +24,7 @@ def meme(request):
         meme_obj.save()
 
         picture_url = f"https://{request.get_host()}/{meme_obj.raw_photo}"
-        caption = get_caption(picture_url)
+        caption = generate_captions(context)
 
         meme_text = generate_meme_text(caption, context)
 
