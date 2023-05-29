@@ -21,7 +21,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "ShareSwift/wsgi.py"
+      "dest": "ShareSWift/wsgi.py"
     }
   ]
-} 
+}
