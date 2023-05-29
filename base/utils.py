@@ -28,14 +28,13 @@ def generate_meme_text(desc, context="No Context"):
  
     completion = openai.Completion()
 
-    try:
 
-        response = completion.create(prompt=prompt, engine="text-davinci-002", max_tokens=1000)
-        answer = align_text(response.choices[0].text.strip())
-        answer = answer.replace('"', '')
-        return answer
-   except Exception as e:
-        return e
+
+    response = completion.create(prompt=prompt, engine="text-davinci-002", max_tokens=1000)
+    answer = align_text(response.choices[0].text.strip())
+    answer = answer.replace('"', '')
+    return answer
+
 
 def generate_meme(img, text):
     base_app_directory = os.path.dirname(os.path.abspath(__file__))
