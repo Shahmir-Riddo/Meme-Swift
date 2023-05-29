@@ -15,8 +15,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-f3u9e+v=fl76qrsbgmm@i1=+cpd-=ql%avvjja9fhx0pdn$@d4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-ALLOWED_HOSTS = ["memeswift.onrender.com", "memeswift.com"]
+DEBUG = False
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
 
 
 # Application definition
