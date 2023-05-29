@@ -35,7 +35,7 @@ def generate_meme_text(desc, context="No Context"):
         answer = answer.replace('"', '')
         return answer
    except Exception as e:
-    return e
+        return e
 
 def generate_meme(img, text):
     base_app_directory = os.path.dirname(os.path.abspath(__file__))
