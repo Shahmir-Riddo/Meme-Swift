@@ -18,7 +18,7 @@ from django.core.files.uploadedfile import InMemoryUploadedFile
 import os
 import replicate
 import json
-from googletrans import Translator
+
 #from bardapi import Bard
 import re
 from transformers import BlipProcessor, BlipForConditionalGeneration
@@ -117,8 +117,7 @@ def generate_meme(img, text):
 
 
 def generate_meme_bengali(img, text):
-    text = translate_bn(text)
-    text = replace_words(text)
+
     base_app_directory = os.path.dirname(os.path.abspath(__file__))
     font_filename = 'haider.ttf'
     font_path = os.path.join(base_app_directory, font_filename)
@@ -224,42 +223,6 @@ def convert_png_to_jpg(image):
     )
 
     return converted_image
-
-def replace_words(text):
-    replacements = {
-        r'পিছন': 'পেছনে' , 
-        r'একটি': 'একটা',
-        r'অন্যথায়': 'নাইলে',
-        r'আপনার':  'তোর',
-        r'আপনাকে': 'তোরে',
-        r'আপনি': 'তুই',
-        r'বলেন': 'বললি',
-        r'করেন': 'করিস',
-        r'দিলেন': 'দিলি',
-        r'যাবেন': 'যাবি',
-        r'থাকেন': 'থাকিস',
-        r'খাবেন': 'খাবি',
-        r'হবেন': 'হবি',
-        r'নিবেন': 'নিবি',
-        r'করবেন': 'করবি',
-        r'খাচ্ছেন': 'খাচ্ছিস',
-        r'করবেন': 'করবি'    
-        }
-    ans = text
-    for pattern, replacement in replacements.items():
-        ans = re.sub(pattern, replacement, ans)
-
-    return ans
-def translate_bn(text):
-    translator = Translator()
-    translated = translator.translate(f'{text}', src="en", dest="bn")
-    return translated.text
-
-from io import BytesIO
-from django.conf import settings
-from django.core.files.uploadedfile import InMemoryUploadedFile
-import os
-import replicate
 
 
 def generate_captions(text):
