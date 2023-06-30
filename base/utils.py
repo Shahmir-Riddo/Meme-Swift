@@ -5,13 +5,6 @@ from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
 from .models import Meme
-import requests
-from PIL import Image
-import openai
-from PIL import Image
-from PIL import ImageFont
-from PIL import ImageDraw
-from .models import Meme
 from io import BytesIO
 from django.conf import settings
 from django.core.files.uploadedfile import InMemoryUploadedFile
@@ -21,8 +14,7 @@ import json
 
 #from bardapi import Bard
 import re
-from transformers import BlipProcessor, BlipForConditionalGeneration
-# -*- coding: utf-8 -*-
+
 def extract_meme_caption(text):
     pattern = r'(?<=meme caption:)\s*(.*?)$'
     match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
@@ -30,28 +22,7 @@ def extract_meme_caption(text):
         return match.group(1)
     return text.upper()
     
-    
-def generate_captions(pic):
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    processor_path = os.path.join(base_dir, r"base")
-    model_path = os.path.join(base_dir, "base")
-
-    processor = BlipProcessor.from_pretrained(model_path)
-    model = BlipForConditionalGeneration.from_pretrained(model_path)
-
-
-    img = Image.open(pic)
-    raw_image = Image.open(pic)
-
-
-    text = "a photography of"
-    inputs = processor(raw_image, text, return_tensors="pt")
-
-    out = model.generate(**inputs)
-    result = (processor.decode(out[0], skip_special_tokens=True))
-    return result
-
-    
+  
 #def generate_meme_text_context(desc, context=""):
    # os.environ['_BARD_API_KEY']="XAhorVyNRCDXcpzrnG_t9_GVuDA1_YJ7x2L3FiTVfaN8rPcMDgR8PxNRatod18hLW6APrQ."
    # input_text = f"Write a meme caption from a first person perspective under 8 words inspired from dark humoured and insulting memes using the provided meme template and context. meme template - '{desc}' and context - '{context}'. write 'meme caption :' before the meme caption"
