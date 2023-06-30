@@ -87,33 +87,6 @@ def generate_meme(img, text):
     return image_file
 
 
-def generate_meme_bengali(img, text):
-
-    base_app_directory = os.path.dirname(os.path.abspath(__file__))
-    font_filename = 'haider.ttf'
-    font_path = os.path.join(base_app_directory, font_filename)
-
-    image = Image.open(img)
-    image = image.resize((960, 960))
-    draw = ImageDraw.Draw(image)
-    font = ImageFont.truetype(font_path, 65, encoding='utf-8')
-
-
-    text_size = draw.textsize(text, font=font)
-
-
-    x = (image.width - text_size[0]) // 2
-    y = 20
-
-    draw.text((x, y), f"{text}", font=font, fill=(255, 255, 255), stroke_width=3, stroke_fill=(0, 0, 0)) # Change the text and position as desired
-
-        # Save the image to memory
-    image_io = BytesIO()
-    image.save(image_io, format='JPEG')
-    image_file = InMemoryUploadedFile(image_io, None, 'image.jpg', 'image/jpeg', image_io.getbuffer().nbytes, None)
-
-    return image_file
-
 
 def watermark(image):
     base_app_directory = os.path.dirname(os.path.abspath(__file__))
