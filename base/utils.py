@@ -4,7 +4,8 @@ import openai
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
-from .models import Memeimport requests
+from .models import Meme
+import requests
 from PIL import Image
 import openai
 from PIL import Image
