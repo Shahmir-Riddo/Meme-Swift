@@ -1,6 +1,6 @@
 
 from django.shortcuts import render, redirect
-from .utils import generate_captions, generate_meme_text, generate_meme, generate_meme_bengali, watermark, get_caption, convert_png_to_jpg
+from .utils import generate_captions, generate_meme_text, generate_meme, watermark, get_caption, convert_png_to_jpg
 from .models import Meme
 from django.core.files.base import ContentFile
 import random
